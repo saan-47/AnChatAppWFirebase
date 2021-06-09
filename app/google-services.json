@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "769554938245",
+    "project_id": "androidapp-57eb2",
+    "storage_bucket": "androidapp-57eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769554938245:android:94dfd1ec3550131805ecec",
+        "android_client_info": {
+          "package_name": "com.hassan.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769554938245-tvqn7465238ukuipls1j3bpcsgg70oav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5GvhbizNe-005jmhPY0gUlMag5DqAsCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769554938245-tvqn7465238ukuipls1j3bpcsgg70oav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
