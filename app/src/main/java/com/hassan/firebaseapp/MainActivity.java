@@ -36,10 +36,13 @@ public class MainActivity extends AppCompatActivity {
         read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FirebaseDatabase.getInstance().getReference("somedata").addValueEventListener(new ValueEventListener() {
+                FirebaseDatabase.getInstance().getReference("movies").addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        tx.setText(snapshot.getValue().toString());
+                        for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+                            Movie movie = dataSnapshot.getValue(Movie.class);
+                            tx.setText(tx.getText().toString()+" , "+movie.genre);
+                        }
                     }
 
                     @Override
